@@ -1,0 +1,50 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.mae_final {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho_final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: -120px;
+    width: 100vw;
+    background-color: rgb(35, 85, 49);
+}
+
+
+.titulo_final {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+    background-color: whitesmoke;
+    padding: 30px 120px;
+    border-radius: 40px;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 24em;
+    border-radius: 70px;
+    background-color: whitesmoke;
+}
+
+.qrcode {
+    width: 400px;
+    height: 400px;
+}

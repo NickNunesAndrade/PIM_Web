@@ -1,0 +1,124 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url('../images/fundo_fazenda.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 20px 160px 20px 30px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-weight: 300;
+}
+
+img {
+    padding: 30px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.mae {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4em;
+}
+
+.cadastro {
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-bottom: -100px;
+}
+
+.usu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Inter';
+    font-weight: bold;
+    padding: 20px 60px;
+    margin-left: -50px;
+}
+
+.desc {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome {
+    background-image: url('../images/do-utilizador.png');
+    background-repeat: no-repeat;
+    background-position-x: 330px;
+    background-position-y: 15px;
+}
+
+.cpf {
+    background-image: url('../images/carteira-de-identidade.png');
+    background-repeat: no-repeat;
+    background-position-x: 330px;
+    background-position-y: 15px;
+}
+
+.email {
+    background-image: url('../images/e-mail.png');
+    background-repeat: no-repeat;
+    background-position-x: 330px;
+    background-position-y: 2px;
+}
+
+.senha {
+    background-image: url('../images/red-eyes.png');
+    background-repeat: no-repeat;
+    background-position-x: 325px;
+    background-position-y: 10px;
+}
+
+.salvar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(35, 85, 49);
+    font-size: 32px;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 600;
+    margin: 30px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: -10px;
+    width: 420px;
+    height: 60px;
+}
+
+    .salvar:hover {
+        transition: 0.3s;
+        background-color: rgb(35, 85, 49, 80%);
+        cursor: pointer;
+    }

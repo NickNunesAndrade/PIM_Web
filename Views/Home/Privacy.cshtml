@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Fazenda -- Home";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="../images/arvore.png" type="image/x-icon">
+</head>
+<body>
+    <div class="mae">
+        <div class="cabecalho">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index"><img src="../images/arvoreMaior.png" alt="Logo" class="logo" /></a>
+            <div class="titulo">Home</div>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Carrinho" asp-action="Index"><img src="../images/carrinho.png" alt="Carrinho" class="logo" /></a>
+        </div>
+        <div class="conteudo">
+            <div class="produtos">
+                <img src="../images/tomate.png" alt="Alface" class="produto" />
+                <img src="../images/tomate.png" alt="Tomate" class="produto" />
+                <img src="../images/batata.png" alt="Batata" class="produto" />
+                <img src="../images/espinafre.png" alt="Espinafre" class="produto" />
+                <img src="../images/cebola.png" alt="Cebola" class="produto" />
+                <img src="../images/cenoura.png" alt="Cenoura" class="produto" />
+            </div>
+            <img src="../images/seta.png" alt="Seta" class="seta" />
+        </div>
+    </div>
+    <div class="descricao">
+        <div class="aberto">
+            <div class="nome">Tomate</div>
+            <img src="../images/tomateQuadrado.png" alt="Tomate" class="tomate" />
+            <div class="opcoes">
+                <div class="opc2">+</div>
+                <div class="quant">1</div>
+                <div class="opc2">-</div>
+            </div>  
+            <button class="confirma">Confirmar</button>
+        </div>
+    </div>
+    <script src="../JS/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Fazenda -- Esqueci minha Senha";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazenda -- Esqueceu Senha</title>
+    <link rel="stylesheet" href="~/css/esqueceu.css">
+    <style>
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="mae">
+        <div class="principal">
+            <img src="~/images/arvore.png" alt="Logo" />
+            <h1>Esqueceu Senha</h1>
+        </div>
+        <div class="inputs">
+            <input type="text" placeholder="Email" class="email" />
+        </div>
+        <button><a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Confirmar</a></button>
+    </div>
+</body>
+</html>

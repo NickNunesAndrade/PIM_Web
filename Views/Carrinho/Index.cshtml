@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Fazenda -- Carrinho";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/carrinho.css">
+</head>
+<body>
+    <div class="mae">
+        <div class="cabecalho">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><img src="../images/arvore.png" alt="Logo"/></a>
+            <div class="titulo">Carrinho</div>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy"><img src="../images/forester-house.png" alt="Home"/></a>
+        </div>
+        <div class="subtotal">
+            <div class="nome_produto">Produtos:</div>
+            <div class="escolhidos">
+                <div class="op">
+                    <div class="ponto">.</div>
+                    <div class="prod">Alface</div>
+                </div>
+                <div class="op">
+                    <div class="ponto">.</div>
+                    <div class="prod">Cebola</div>
+                </div>
+                <div class="op">
+                    <div class="ponto">.</div>
+                    <div class="prod">Brócolis</div>
+                </div>
+                <div class="op">
+                    <div class="ponto">.</div>
+                    <div class="prod">Tomate</div>
+                </div>
+            </div>
+            <div class="total">
+                <div class="ponto">.</div>
+                <div class="tot">Total:</div>
+                <div class="real">R$ 0,00</div>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Final" asp-action="Index"><button>Prosseguir</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

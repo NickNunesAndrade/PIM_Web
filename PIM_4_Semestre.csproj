@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7125ff27-e232-4023-a133-17edc3afbe59</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NovaPasta\**" />
+    <Compile Remove="Views\Cadastro\**" />
+    <Compile Remove="Views\Fazenda_PIM\**" />
+    <Compile Remove="Views\NovaPasta1\**" />
+    <Content Remove="NovaPasta\**" />
+    <Content Remove="Views\Cadastro\**" />
+    <Content Remove="Views\Fazenda_PIM\**" />
+    <Content Remove="Views\NovaPasta1\**" />
+    <EmbeddedResource Remove="NovaPasta\**" />
+    <EmbeddedResource Remove="Views\Cadastro\**" />
+    <EmbeddedResource Remove="Views\Fazenda_PIM\**" />
+    <EmbeddedResource Remove="Views\NovaPasta1\**" />
+    <None Remove="NovaPasta\**" />
+    <None Remove="Views\Cadastro\**" />
+    <None Remove="Views\Fazenda_PIM\**" />
+    <None Remove="Views\NovaPasta1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\CadastroController.cs" />
+    <Compile Remove="Controllers\HomeController1.cs" />
+    <Compile Remove="Models\Entities\DetalhesPedido.cs" />
+    <Compile Remove="Models\ImagesModel.cs" />
+    <Compile Remove="Views\Home\carrinho.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove=".filenesting.json" />
+    <Content Remove="Views\Home\Car.cshtml" />
+    <Content Remove="Views\Home\carrinho.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="arvore.png" />
+    <None Remove="Views\Home\carrinho.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Fazenda\NovaPasta\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
+  </ItemGroup>
+
+</Project>

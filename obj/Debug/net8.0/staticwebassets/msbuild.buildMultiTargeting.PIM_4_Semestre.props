@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PIM_4_Semestre.props" />
+</Project>
